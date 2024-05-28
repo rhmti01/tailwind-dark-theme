@@ -1,0 +1,21 @@
+{
+  "name": "tailwind-dark-theme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": " node  ./src/js/server.js ",
+    "dev": "npx tailwindcss -i ./src/css/tailwind.css -o ./public/build/style.css --watch ",
+    "minify": " npx tailwindcss -i ./src/css/tailwind.css -o ./public/build/style.css --minify  "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhmti01/tailwind-dark-theme.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rhmti01/tailwind-dark-theme/issues"
+  },
+  "homepage": "https://github.com/rhmti01/tailwind-dark-theme#readme"
+}
