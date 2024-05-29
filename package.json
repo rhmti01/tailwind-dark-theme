@@ -2,7 +2,7 @@
   "name": "tailwind-dark-theme",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "tailwind.config.js",
   "scripts": {
     "start": " node  ./src/js/server.js ",
     "dev": "npx tailwindcss -i ./src/css/tailwind.css -o ./public/build/style.css --watch ",
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/rhmti01/tailwind-dark-theme/issues"
   },
-  "homepage": "https://github.com/rhmti01/tailwind-dark-theme#readme"
+  "homepage": "https://github.com/rhmti01/tailwind-dark-theme#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  }
 }
